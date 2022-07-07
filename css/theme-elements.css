@@ -3787,10 +3787,11 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 
 .owl-carousel.rounded-nav .owl-nav button[class*="owl-"] {
 	padding: 3px 7px;
-	border-radius: 50%;
+	border-radius:100%;
 	background: transparent;
-	border: 1px solid #999;
-	color: #999;
+	
+	border: 1px solid #707070;
+	opacity: 0.3;
 }
 
 .owl-carousel.rounded-nav .owl-nav button[class*="owl-"]:hover, .owl-carousel.rounded-nav .owl-nav button[class*="owl-"].hover {
