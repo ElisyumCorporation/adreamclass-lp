@@ -52,7 +52,7 @@ li {
 @media (max-width: 575px) {
 	body {
 		font-size: 13px;
-	}
+	};
 }
 
 pre {
@@ -417,11 +417,24 @@ pre {
 	content: none;
 }
 
+.background-image-wrapper {
+    left:0px;
+}
+
 @media (max-width: 575px) {
 	#header .header-nav-top .nav > li:not(.d-none) {
 		margin-left: 0;
 		padding-left: 0;
 	}
+    #header .header-logo img {
+        width:220px;
+        height:50px;
+    }
+    .background-image-wrapper {
+        height:445px;
+        width:1000px;
+        left:-450px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -8256,8 +8269,8 @@ a.text-light:focus, a.text-light:hover {
 	padding-right: 10px;
 }
 
-/* 
- * Order (Extending to 10) 
+/*
+ * Order (Extending to 10)
  * Bootstrap 5 has until 5 order class
 */
 .order-6 {
