@@ -10853,6 +10853,11 @@ html.dark .owl-dots button.owl-dot span {
 	background: #333940;
 }
 
+.carousel-item {
+    display:flex;
+    flex-direction:column;
+}
+
 html.dark .owl-carousel.top-border {
 	border-top-color: #3F4247;
 }

@@ -7,18 +7,18 @@ Theme Version:	9.7.0
 /* Accordion */
 .accordion .card {
 	margin-top: 5px;
-	
+
 }
 
 .accordion .card:first-child {
 	margin-top: 0;
-	
+
 }
 
 .accordion .card:first-of-type, .accordion .card:not(:first-of-type):not(:last-of-type), .accordion .card:last-of-type {
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: .25rem;
-	
+
 }
 
 .accordion .card:not(:first-of-type) .card-header:first-child {
@@ -2093,7 +2093,7 @@ Theme Version:	9.7.0
 .btn {
 	font-size: 12.8px;
 	font-size: 0.8rem;
-	
+
 	cursor: pointer;
 	font-weight: 600;
 }
@@ -3792,7 +3792,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	padding: 3px 7px;
 	border-radius:100%;
 	background: transparent;
-	
+
 	border: 1px solid #707070;
 	opacity: 0.3;
 }
@@ -5080,7 +5080,6 @@ hr {
 	background: rgba(0, 0, 0, 0.06);
 	border: 0;
 	height: 1px;
-	margin: 22px 0;
 	opacity: 1;
 }
 
@@ -5240,7 +5239,7 @@ hr.invisible {
 }
 
 .divider.divider-small hr {
-	width: 50px;
+	width: 70px;
 	height: 3px;
 	background: #555;
 }
@@ -12267,7 +12266,7 @@ body.page-transition-active {
 	opacity: 0 !important;
 }
 
-/* 
+/*
 Image 360º Viewer
 Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 */
