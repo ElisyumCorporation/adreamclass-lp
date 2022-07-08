@@ -7,15 +7,18 @@ Theme Version:	9.7.0
 /* Accordion */
 .accordion .card {
 	margin-top: 5px;
+	
 }
 
 .accordion .card:first-child {
 	margin-top: 0;
+	
 }
 
 .accordion .card:first-of-type, .accordion .card:not(:first-of-type):not(:last-of-type), .accordion .card:last-of-type {
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: .25rem;
+	
 }
 
 .accordion .card:not(:first-of-type) .card-header:first-child {
@@ -196,7 +199,7 @@ Theme Version:	9.7.0
 }
 
 .accordion.accordion-modern-status.accordion-modern-status-borders > .card .card-header a {
-	background: transparent !important;
+	background: #1D2027 0% 0% no-repeat padding-box;
 }
 
 .accordion.accordion-modern-status.accordion-modern-status-arrow > .card .card-header a:after {
@@ -3458,6 +3461,7 @@ html.sticky-header-active .hamburguer-btn.hamburguer-btn-sticky-dark .close span
 	padding: 2rem;
 	position: relative;
 	z-index: 1;
+	background: #1D2027 0% 0% no-repeat padding-box;
 }
 
 .card-text-color-hover-light:hover * {
@@ -13330,7 +13334,7 @@ html.boxed .nav-secondary.sticky-active {
 	position: relative;
 }
 
-.overlay:before {
+/* .overlay:before {
 	content: ' ';
 	position: absolute;
 	top: 0;
@@ -13342,7 +13346,7 @@ html.boxed .nav-secondary.sticky-active {
 	opacity: 0;
 	pointer-events: none;
 	transition: ease opacity 300ms 100ms;
-}
+} */
 
 .overlay:hover:before, .overlay.overlay-show:before, .overlay.show:before {
 	opacity: 0.8;
