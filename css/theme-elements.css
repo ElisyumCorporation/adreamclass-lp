@@ -2093,8 +2093,7 @@ Theme Version:	9.7.0
 .btn {
 	font-size: 12.8px;
 	font-size: 0.8rem;
-	padding: 8.528px 14.928px;
-	padding: 0.533rem 0.933rem;
+	
 	cursor: pointer;
 	font-weight: 600;
 }
