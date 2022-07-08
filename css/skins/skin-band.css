@@ -2238,7 +2238,7 @@ html .btn-with-arrow-solid.btn-light span {
 .btn-gradient:not(.btn-outline) {
 	background: linear-gradient(40deg, #0111A2  0%, #FF0000 80% )0% 0% no-repeat padding-box !important;
 	color: #FFF;
-	
+
 }
 
 .btn-gradient:not(.btn-outline):hover,
@@ -4671,7 +4671,8 @@ html[dir="rtl"] #header .tip-light:before {
 }
 
 #header .header-btn-collapse-nav {
-	background: #EA1C21;
+	background: transparent;
+    font-size: 24px;
 }
 
 @media (min-width: 992px) {
