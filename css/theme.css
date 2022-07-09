@@ -10856,6 +10856,8 @@ html.dark .owl-dots button.owl-dot span {
 .carousel-item {
     display:flex;
     flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 html.dark .owl-carousel.top-border {
