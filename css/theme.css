@@ -433,7 +433,7 @@ pre {
     }
     .background-image-wrapper {
         height:445px;
-        width:1000px;
+        width:auto;
         left:-450px;
     }
     .main {
