@@ -93,7 +93,7 @@
 								<div class="header-row">
 									<div class="header-logo">
 										<a href="index.html">
-											<img alt="Adreamclass" width="180" height="48" data-sticky-width="82" data-sticky-height="40" src="img/adreamclass/Grupo 484.svg">
+											<img alt="Adreamclass" width="180" height="48" data-sticky-width="200" data-sticky-height="40" src="img/adreamclass/Grupo 484.svg">
 										</a>
 									</div>
 								</div>
@@ -254,11 +254,35 @@
 							</div>
 						</div>
 					</div>
+					<style>
+						.flipper {
+							position: relative;
+							width: 100%;
+							height: 100%;
+							transition: transform 0.8s;
+							transform-style: preserve-3d;
+						}
 
+						.flip-container:hover .flipper{
+							transform: rotateY(180deg);
+						}
+
+						.front, .back{
+							position: absolute;
+							width: 100%;
+							height: 100%;
+							backface-visibility: hidden;
+						}
+
+						.back{
+						transform: rotateY(180deg);
+						}
+					</style>
 					<div class="d-none d-sm-block container pb-xl-5">
 						<div class="row align-items-center flex-nowrap justify-content-center pt-4 pb-lg-5 my-2 text-center">
-                            <div style="width:30%" class="d-flex flex-column align-items-center justify-content-center">
-                                <img src="img/adreamclass/passaporte.png" class="img-fluid" alt="" />
+                            <div style="width:30%" class="d-flex flex-column align-items-center zoomhoverimg justify-content-center">
+                                
+								<img src="img/adreamclass/passaporte.png" class="img-fluid zoomhoverimg" alt="" />
                                 <p class="position-absolute font-weight-bold text-color-light text-2 line-height-4 negative-ls-05" style="margin-top:120px">Documentação</p> 
 								   
                                 <p class="position-absolute font-weight-light text-color-light text-2 line-height-4 negative-ls-05" style="margin-top:210px">Você aprenderá tudo o que é necessário para<br/>se tornar um imigrante legal, tirar sua licença de<br /> motorista e outros tipos de documentações para<br />colocar seu sonho em prática</p>
@@ -266,7 +290,7 @@
                                     <hr>
                                 </div>
                             </div>
-                            <div style="width:30%" class="d-flex flex-column align-items-center justify-content-center">
+                            <div style="width:30%" class="d-flex flex-column  zoomhoverimg align-items-center justify-content-center">
                                 <img src="img/adreamclass/dinheirama.png" class="img-fluid" alt="" />
                                 <p class="position-absolute font-weight-bold text-color-light text-2 line-height-4 negative-ls-05" style="margin-top:120px">Economia</p>
 								 	 
@@ -275,7 +299,7 @@
                                     <hr>
                                 </div>
                             </div>
-                            <div style="width:30%" class="d-flex flex-column align-items-center justify-content-center">
+                            <div style="width:30%" class="d-flex flex-column zoomhoverimg align-items-center justify-content-center">
                                 <img src="img/adreamclass/homo.png" class="img-fluid" alt="" />
                                 <p class="position-absolute font-weight-bold text-color-light text-2 line-height-4 negative-ls-05" style="margin-top:120px">Adaptabilidade social</p>
 								  
@@ -394,7 +418,7 @@
 											</div>
 										</div>
 									</div>
-										<div class="owl-carousel owl-theme rounded-nav nav-bottom nav-bottom-align-right nav-style-1 nav-dark nav-font-size-lg mb-0" data-plugin-options="{'responsive': {'0': {'items': 1}, '768': {'items': 3}, '992': {'items': 4}, '1200': {'items': 4}}, 'loop': false, 'nav': true, 'dots': false, 'margin': 20}">
+										<div class="owl-carousel owl-theme show-nav-title" data-plugin-options="{'responsive': {'0': {'items': 1}, '768': {'items': 3}, '992': {'items': 4}, '1200': {'items': 4}}, 'loop': false, 'nav': true, 'dots': false, 'margin': 20}">
 											<div class="carousel-item text-center">
                                                 <img src="img/adreamclass/retangulo.png" class="img-fluid" alt="" />
                                                 <img src="img/adreamclass/bigstock-1.png" class="position-absolute img-fluid" style="width:88px; height:88px; margin-bottom:300px" alt="" />
