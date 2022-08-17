@@ -55,6 +55,14 @@ li {
 	};
 }
 
+.first-section {
+    height:102vh;
+}
+
+.last-section {
+    height:145vh;
+}
+
 pre {
 	background: #f7f7f7;
 	border: 1px solid #e8e8e8;
@@ -638,6 +646,15 @@ pre {
 	#header .header-nav-features.header-nav-features-xl-show-border:before, #header .header-nav-features.header-nav-features-xl-show-border:after {
 		content: '';
 	}
+}
+
+@media (min-width: 389px) and (max-width: 420px){
+    .first-section {
+        height: 75vh;
+    }
+    .last-section {
+        height: 120vh;
+    }
 }
 
 #header .header-nav-features.header-nav-features-start {
